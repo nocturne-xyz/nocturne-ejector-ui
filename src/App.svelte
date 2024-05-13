@@ -56,7 +56,7 @@ By signing this message, I assert that
   <h2>Export Nocturne Spend Private Key</h2>
   <p>To export your spend private key:</p>
   <ol>
-      <li>In MetaMask switch to the Ethereum account you used to derive your Nocturne account the first time you used the app. If you're unsure, see our <a href="https://nocturne-xyz.gitbook.io/nocturne/users/metamask-snap">docs</a>.</li>
+      <li>In MetaMask, switch to the Ethereum account you used to derive your Nocturne account the first time you used the app. If you're unsure, see our <a href="https://nocturne-xyz.gitbook.io/nocturne/users/metamask-snap">docs</a>.</li>
       <li>Press the button below to sign the key generation message.</li>
       <li>Copy your spend private key.</li>
       <li>Paste it into your <code>.env</code> file in the CLI repo.</li>
