@@ -53,10 +53,17 @@ By signing this message, I assert that
 </script>
 
 <main>
-  <h2>Generate Nocturne Spend Key</h2>
-  <button on:click={handleSpendKeyClick}> Generate Spend Key </button>
+  <h2>Export Nocturne Spend Private Key</h2>
+  <p>To export your spend private key:</p>
+  <ol>
+      <li>Connect with MetaMask to the same Ethereum account you used to derive your Nocturne account the first time you used the app. If you're unsure, see our <a href="https://nocturne-xyz.gitbook.io/nocturne/users/metamask-snap">docs</a>.</li>
+      <li>Sign the key generation message.</li>
+      <li>Copy your spend private key.</li>
+      <li>Paste it into your <code>.env</code> file in the CLI repo.</li>
+  </ol>
+  <button on:click={handleSpendKeyClick}> Export Spend Private Key </button>
   {#if spendKey}
-    <p>Spend Key: {spendKey}</p>
+    <p>Spend Private Key: {spendKey}</p>
     <button on:click={copyToClipboard}> Copy to Clipboard </button>
     {#if copied}
       <p>Copied to clipboard!</p>
@@ -68,7 +75,7 @@ By signing this message, I assert that
   main {
     text-align: left;
     padding: 1em;
-    max-width: 240px;
+    max-width: 480px;
     margin: 0 auto;
   }
   button {
