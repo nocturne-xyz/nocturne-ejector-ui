@@ -61,7 +61,7 @@ By signing this message, I assert that
       <li>Copy your spend private key.</li>
       <li>Paste it into your <code>.env</code> file in the CLI repo.</li>
   </ol>
-  <button on:click={handleSpendKeyClick}> Re-Generate Spend Private Key </button>
+  <button on:click={handleSpendKeyClick}> Regenerate Spend Private Key </button>
   {#if spendKey}
     <p>Spend Private Key: {spendKey}</p>
     <button on:click={copyToClipboard}> Copy to Clipboard </button>
