@@ -1,8 +1,8 @@
-# Nocturne Ejector
+# Nocturne Ejector UI
 
-!TODO writeup!
+See the (Nocturne Ejector CLI README)[https://github.com/nocturne-xyz/nocturne-ejector-cli/tree/main] for more information.
 
-## How to proceed
+## Running the site locally
 
 ```
 git clone https://github.com/nocturne-xyz/nocturne-ejector.git
@@ -15,5 +15,3 @@ yarn dev --port 3000
 ```
 
 Go to [http://localhost:3000](http://localhost:3000), generate spend key, and copy to clipboard.
-
-Paste this in !TODO!
