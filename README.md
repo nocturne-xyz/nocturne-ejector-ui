@@ -1,6 +1,6 @@
 # Nocturne Ejector UI
 
-See the (Nocturne Ejector CLI README)[https://github.com/nocturne-xyz/nocturne-ejector-cli/tree/main] for more information.
+See the [Nocturne Ejector CLI README](https://github.com/nocturne-xyz/nocturne-ejector-cli/tree/main) for more information.
 
 ## Running the site locally
 
